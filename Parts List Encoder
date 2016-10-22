@@ -1,6 +1,38 @@
-## Parts List ##
+List of Materials
+Simple Version (Breadboard):
 
-[Arduino Uno] (https://www.adafruit.com/products/50)
-[Break Beams] (https://www.adafruit.com/products/2167)
-[Jumper wires and Breadboard] (400 tie-points Solderless BreadBoard +40pin 10cm male-male jumper wires for Arduino)
-[Alligator Clips] (https://www.amazon.com/SE-TL10-10-Piece-Alligator-Clips/dp/B0002KRABU/ref=sr_1_6?ie=UTF8&qid=1471457437&sr=8-6&keywords=alligator+clips)
+Breadboard
+Jumper wires
+Arduino
+3 Break beams - https://www.adafruit.com/products/2167
+3 Types of encoders
+Motor
+Stand
+Our Soldered Version:
+
+3 Break beams - https://www.adafruit.com/products/2167
+Motor - https://www.amazon.com/RS-550s-18v-Electronic-Controlled-Replacement/dp/B00TE42PME/ref=sr_1_1?ie=UTF8&qid=1477015531&sr=8-1&keywords=rs550
+Arduino
+Motor Controller - https://www.amazon.com/uniquegoods-Controller-Adjustable-Reversible-1203BB/dp/B00RYRXFW2/ref=sr_1_11?ie=UTF8&qid=1477015447&sr=8-11&keywords=dc+motor+controller
+OpenBeam - https://www.amazon.com/OpenBeam-Starter-Construction-Clear-Anodized/dp/B0196FGLWK/ref=sr_1_20?srs=12712647011&ie=UTF8&qid=1476480862&sr=8-20
+Connectors and Crimps -
+http://www.digikey.com/product-detail/en/jst-sales-america-inc/XHP-2/455-2266-ND/555485
+-http://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045
+-http://www.digikey.com/product-detail/en/jst-sales-america-inc/B3B-XH-A(LF)(SN)/455-2248-ND/1651046
+-http://www.digikey.com/product-detail/en/jst-sales-america-inc/XHP-3/455-2219-ND/1651017
+-http://www.digikey.com/product-detail/en/jst-sales-america-inc/SXH-001T-P0.6/455-1135-1-ND/527370
+Hookup Wire - https://www.sparkfun.com/products/11367
+Header pins
+Solder
+Protoyping board - https://www.amazon.com/Snappable-BreadBoard-Scored-Boards-2-Layer/dp/B00PX52C7Q/ref=sr_1_14?s=industrial&ie=UTF8&qid=1477159972&sr=1-14&keywords=busboard
+Screw Terminal -https://www.sparkfun.com/products/10571
+9V Battery
+9V Battery clip
+2 AA Batteries
+AA Battery Holder
+Tools for soldered version:
+
+Crimper - https://www.amazon.com/Engineer-PAD-11-Precision-Crimping-Interchangeable/dp/B00IWD9XT6/ref=sr_1_6?s=hi&ie=UTF8&qid=1477165132&sr=1-6&keywords=interchangeable+crimper
+Soldering iron - https://www.sparkfun.com/products/11704
+Screw driver for terminal
+Wire stripper
