@@ -1,7 +1,7 @@
 /*  
 Building a Quadrature Encoder
 http://youtu.be/j8rG3bjqriI - Encoder Basics
-http://youtu.be/ -How to Build and Encoder
+https://youtu.be/LjY1PSd8w2E - How to Build the Encoder
 http://youtu.be/ -How to Code the Encoder
 This code is for a quadrature encoder. It reads the state of a break beam, 
 compares it to the previous state, and increments the number of state changes
@@ -14,10 +14,10 @@ October 18, 2016
 
 const int sensorPinA = 6; // Define input pins for sensor (LDR, Break beam, Hall effect...). Lower track.
 const int sensorPinB = 5; //Upper track.
-const int currentStateA = 0;  //Define current state of track A. 1-Unbroken, 0-Broken.
+const int stepsPerRotA = 16;   //Total number of broken-unbroken changes in one rotation.
+int currentStateA = 0;  //Define current state of track A. 1-Unbroken, 0-Broken.
 int currentStateB = 0; //Define current state of track B. 1-Unbroken, 0-Broken.
 int lastStateA = 0;   //Define last state of track A.
-const int stepsPerRotA = 16;   //Total number of broken-unbroken changes in one rotation.
 int stepsA = 0;  //Number of steps counted on track A.
 float rotations = 0; //Count of the number of rotations.
 
