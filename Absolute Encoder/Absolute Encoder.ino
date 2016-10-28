@@ -43,7 +43,7 @@ if(states[0] == 0 && states[1] == 0 && states[2]==0) {  // If the inner sensor i
   Serial.println("0 degrees to 45 degrees");            // then print "0 degrees to 45". If not, move on to next else if statement.
 }
 
-else if(states[0] == 0 && states[1] == 1 && states[2]==0) {
+else if(states[0] == 0 && states[1] == 0 && states[2]==1) {
   Serial.println("45 degrees to 90 degrees");
 }
 
@@ -51,7 +51,7 @@ else if(states[0] == 0 && states[1] == 1 && states[2]==1) {
   Serial.println("90 degrees to 135 degrees");
 }
 
-else if(states[0] == 1 && states[1] == 1 && states[2]==1) {
+else if(states[0] == 0 && states[1] == 1 && states[2]==0) {
   Serial.println("135 degrees to 180 degrees");
 }
 
@@ -59,7 +59,7 @@ else if(states[0] == 1 && states[1] == 1 && states[2]==0) {
   Serial.println("180 degrees to 225 degrees");
 }
 
-else if(states[0] == 1 && states[1] == 0 && states[2]==0) {
+else if(states[0] == 1 && states[1] == 1 && states[2]==1) {
   Serial.println("225 degrees to 270 degrees");
 }
 
@@ -67,7 +67,7 @@ else if(states[0] == 1 && states[1] == 0 && states[2]==1) {
   Serial.println("270 degrees to 315 degrees");
 }
 
-else if(states[0] == 0 && states[1] == 0 && states[2]==1) {
+else if(states[0] == 1 && states[1] == 0 && states[2]==0) {
   Serial.println("315 degrees to 360 degrees");
 }
  
