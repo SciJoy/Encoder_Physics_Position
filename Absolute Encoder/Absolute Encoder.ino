@@ -1,8 +1,8 @@
 /*  
 Building an Absolute Encoder
 http://youtu.be/j8rG3bjqriI - Encoder Basics
-http://youtu.be/ -How to Build and Encoder
-http://youtu.be/ -How to Code the Encoder
+https://youtu.be/LjY1PSd8w2E -How to Build and Encoder
+https://youtu.be/CM0GePGEtrs -How to Program the Encoder
 This code is for an absolute encoder. It reads the state of three break beam, 
 compares the three readings, and outputs the location of the encoder.
 To learn more, visit www.scijoy.community.
